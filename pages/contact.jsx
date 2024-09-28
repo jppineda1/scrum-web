@@ -79,7 +79,7 @@ const Contact = () => {
           {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iJeanjavaid" target='_blank' rel="noreferrer"><FaTwitter /></a> */}
           <a
             className="hover:scale-125 ease-in-out duration-700 hidden sm:block"
-            href="https://www.fiverr.com/codeworthy"
+            href="https://www.fiverr.com/jpf"
             target="_blank"
             rel="noreferrer"
           >
