@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true // Permite el uso de JSX
+    },
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    },
+    "requireConfigFile": false // Evita errores si no tienes un archivo de configuración de Babel
+  },
+  "plugins": [
+    "react" // Asegúrate de incluir el plugin de React
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "no-unused-vars":"off",
+    "react/no-unknown-property":"off",
+    "react/jsx-no-target-blank":"off",
+
+    "react/jsx-key":"off",
+    "react/prop-types":"off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "no-undef": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Detecta automáticamente la versión de React
+    }
+  }
+}
